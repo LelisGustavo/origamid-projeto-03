@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título/Title -->
+  <title>Animais Fantásticos</title>
+
+  <!-- Descrição -->
+  <meta name="description" content="Animais Fantásticos">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-package/favicon-16x16.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:700|Playfair+Display+SC&display=swap" rel="stylesheet">
+
+  <!-- Script -->
+  <script>
+    document.documentElement.className += ' js';
+  </script>
+
+</head>
+
+<body>
+
+  <div class="grid-container">
+
+    <!-- Menu -->
+    <nav class="menu" data-menu="suave">
+
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+
+      <ul data-menu="list" id="menu">
+
+        <li><a href="#animais">Animais</a></li>
+
+        <li data-dropdown>
+          <a href="#">Sobre</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">A Empresa</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Sócios</a></li>
+            <li><a href="#">Investidores</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a data-modal="abrir" href="login.html">Login <span class="arrow-black"></span></a></li>
+
+      </ul>
+
+    </nav>
+
+    <!-- Animais -->
+    <section class="grid-section animais" data-anime="scroll" id="animais" aria-label="Animais">
+
+      <h1 class="titulo">Animais Fantásticos</h1>
+
+      <ul class="animais-lista" data-tab="menu">
+
+        <li>
+          <img src="./assets/img/imagem1.jpg" alt="Raposa" width="600" height="800">
+        </li>
+        <li>
+          <img src="./assets/img/imagem2.jpg" alt="Esquilo" width="600" height="800">
+        </li>
+        <li>
+          <img src="./assets/img/imagem3.jpg" alt="Urso" width="600" height="800">
+        </li>
+        <li>
+          <img src="./assets/img/imagem4.jpg" alt="Lobo" width="600" height="800">
+        </li>
+        <li>
+          <img src="./assets/img/imagem5.jpg" alt="Macaco" width="600" height="800">
+        </li>
+        <li>
+          <img src="./assets/img/imagem6.jpg" alt="Leão" width="600" height="800">
+        </li>
+
+      </ul>
+
+      <div class="animais-descricao" data-tab="content">
+
+        <section data-anime="show-right" aria-label="Raposa">
+
+          <h2>Raposa</h2>
+
+          <p>
+            As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio,
+            caracterizados
+            por um focinho comprido e uma cauda longa e peluda.
+          </p>
+          <p>
+            Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+          <p>
+            De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
+            verdadeiras", do qual a raposa vermelha é a mais comum.
+          </p>
+          <p>
+            Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+
+        </section>
+
+        <section data-anime="show-right" aria-label="Esquilo">
+
+          <h2>Esquilo</h2>
+
+          <p>
+            Os esquilos pertencem a uma grande família de mamíferos roedores, de pequeno e médio porte, conhecida como
+            Sciuridae.
+          </p>
+          <p>
+            No Brasil, são também conhecidos como serelepe, caxinguelê, caxinxe, quatimirimd, quatipurud, agutipurud ou
+            acutipurud.
+          </p>
+          <p>
+            Os esquilos estão espalhados por quase todo o mundo, a maioria nas zonas de climas temperado ou tropical,
+            mas também em algumas zonas de clima frio.
+          </p>
+          <p>
+            Como todos os roedores, possuem presas fortíssimas, com que roem facilmente sementes, principalmente
+            bolotas.
+          </p>
+
+        </section>
+
+        <section data-anime="show-down" aria-label="Urso">
+
+          <h2>Urso</h2>
+
+          <p>
+            O urso-pardo (Ursus arctos) é um mamífero omnívoro da família dos ursídeos. É o urso de mais ampla
+            distribuição geográfica dentre todos os membros vivos de sua família.
+          </p>
+          <p>
+            É um dos maiores carnívoros terrestres da atualidade, rivalizado em tamanho corporal apenas com seu parente
+            próximo, o urso polar, que é muito menos variável em tamanho e maior devido a isso.
+          </p>
+          <p>
+            Existem varias subespécies reconhecidas, muitas das quais são bem conhecidas em sua área de ocorrência.
+          </p>
+          <p>
+            O urso pardo habita em partes da Rússia, Ásia central, China, Canadá, Estados Unidos (principalmente o
+            Alasca).
+          </p>
+
+        </section>
+
+        <section data-anime="show-down" aria-label="Lobo">
+
+          <h2>Lobo</h2>
+
+          <p>
+            Lobo é um animal carnívoro da família dos canídeos e que pertence ao gênero Canis.
+          </p>
+          <p>
+            São quatro espécies que recebem tal designação: o lobo-cinzento (Canis lupus), lobo-vermelho (Canis rufus),
+            lobo-etíope (Canis simensis), lobo-dourado (Canis anthus ou Canis lupaster).
+          </p>
+          <p>
+            O lobo-oriental tem classificação discutível se espécie em si (Canis lycaon), uma subespécie do
+            lobo-cinzento, ou um híbrido do lobo e coiote.
+          </p>
+          <p>
+            Existem outros animais comumente referidos como "lobos" mas pertencem a outros gêneros ou outras
+            classificações de mamíferos.
+          </p>
+
+        </section>
+
+        <section data-anime="show-right" aria-label="Macaco">
+
+          <h2>Macaco</h2>
+
+          <p>
+            Macaco é um termo de origem africana (provavelmente do banto makako)[1] utilizado como designação comum a
+            todas as espécies de símios ou primatas antropoides.
+          </p>
+          <p>
+            É aplicada restritivamente no Brasil aos cebídeos (ou macacos do Novo Mundo) em geral. No sentido estrito,
+            "macaco" refere-se às espécies de primatas pertencentes ao género Macaca.
+          </p>
+          <p>
+            A designação mico se origina, segundo o Dicionário Aurélio,[2] do caraíba (karib) continental.
+          </p>
+          <p>
+            É bastante usada no Brasil, onde costuma aplicar-se às espécies do gênero Cebus, no Sul, e às espécies de
+            pequeno porte, ou saguis, no Norte.
+          </p>
+
+        </section>
+
+        <section data-anime="show-right" aria-label="Leão">
+
+          <h2>Leão</h2>
+
+          <p>
+            O leão [feminino: leoa] (nome científico: Panthera leo) é uma espécie de mamífero carnívoro do gênero
+            Panthera e da família Felidae.
+          </p>
+          <p>
+            A espécie é atualmente encontrada na África subsaariana e na Ásia, com uma única população remanescente em
+            perigo, no Parque Nacional da Floresta de Gir, Gujarat, Índia.
+          </p>
+          <p>
+            Foi extinto na África do Norte e no Sudoeste Asiático em tempos históricos, e até o Pleistoceno Superior.
+          </p>
+          <p>
+            Há cerca de 10 000 anos, era o mais difundido grande mamífero terrestre depois dos humanos, sendo encontrado
+            na maior parte da África, em muito da Eurásia, da Europa Ocidental à Índia, e na América, do Yukon ao
+            México.
+          </p>
+
+        </section>
+
+      </div>
+
+    </section>
+
+    <!-- FAQ -->
+    <section class="grid-section faq" data-anime="scroll" id="faq" aria-label="FAQ">
+
+      <h1 class="titulo">FAQ</h1>
+
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Qual a idade dos animais?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. A optio magnam cupiditate dolorem laudantium
+          molestiae.</dd>
+      </dl>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Eles são fantásticos?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. A optio magnam cupiditate dolorem laudantium
+          molestiae.</dd>
+      </dl>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Qual a diferença?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. A optio magnam cupiditate dolorem laudantium
+          molestiae.</dd>
+      </dl>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Como proteger?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. A optio magnam cupiditate dolorem laudantium
+          molestiae.</dd>
+      </dl>
+
+    </section>
+
+    <!-- Slide -->
+    <section class="grid-section galeria" data-anime="scroll">
+
+      <ul class="custom-constrols">
+        <li><img src="./assets/img/slide/foto1-thumb.jpg" alt="Foto raposa"></li>
+        <li><img src="./assets/img/slide/foto2-thumb.jpg" alt="Foto esquilo"></li>
+        <li><img src="./assets/img/slide/foto3-thumb.jpg" alt="Foto urso"></li>
+        <li><img src="./assets/img/slide/foto4-thumb.jpg" alt="Foto lobo"></li>
+        <li><img src="./assets/img/slide/foto5-thumb.jpg" alt="Foto macaco"></li>
+        <li><img src="./assets/img/slide/foto6-thumb.jpg" alt="Foto leão"></li>
+      </ul>
+    
+      <div class="slide-wrapper">
+    
+        <ul class="slide">
+          <li><img src="./assets/img/slide/foto1.jpg" alt="Foto raposa"></li>
+          <li><img src="./assets/img/slide/foto2.jpg" alt="Foto esquilo"></li>
+          <li><img src="./assets/img/slide/foto3.jpg" alt="Foto urso"></li>
+          <li><img src="./assets/img/slide/foto4.jpg" alt="Foto lobo"></li>
+          <li><img src="./assets/img/slide/foto5.jpg" alt="Foto macaco"></li>
+          <li><img src="./assets/img/slide/foto6.jpg" alt="Foto leão"></li>
+        </ul>
+    
+      </div>
+
+    </section>
+
+    <!-- Números -->
+    <section class="grid-section numeros" data-anime="scroll">
+
+      <h1 class="titulo">Números</h1>
+
+      <div class="numeros-grid">
+
+        <!-- Renderizando via API -->
+
+      </div>
+
+    </section>
+
+    <!-- Contato -->
+    <section class="grid-section contato" data-anime="scroll" id="contato" aria-label="Contato">
+
+      <h1 class="titulo">Contato</h1>
+
+      <div class="mapa" data-tooltip aria-label="Endereço próximo ao estacionamento.">
+        <img src="./assets/img/mapa.png" alt="Mapa" width="1200" height="1600">
+      </div>
+
+      <ul class="dados">
+
+        <li>contato@animaisfantasticos.com</li>
+        <li>+55 (19) 9 9999-9999</li>
+        <li>Rua Ali Perto, nº 42</li>
+        <li>São Paulo - SP</li>
+        <li>São Paulo - SP</li>
+        <li>Doe <span class="btc-preco"></span> Bitcoin para nos ajudar</li>
+        <li data-semana="1, 2, 3, 4, 5" data-horario="8, 18">Seg à Sex das 8 às 18</li>
+
+      </ul>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="copy">
+
+      <p>Todos os direitos reservados.</p>
+
+    </footer>
+
+  </div>
+
+  <!-- Modal -->
+  <sction class="modal-container" data-modal="container">
+
+    <div class="modal">
+
+      <button class="fechar" data-modal="fechar"></button>
+
+      <form action="">
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha">
+
+        <button type="submit">Entrar</button>
+
+      </form>
+
+    </div>
+
+  </sction>
+
+  <!-- Script -->
+  <script type="module" src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
