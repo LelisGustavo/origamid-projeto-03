@@ -47,7 +47,7 @@ funcionamento.init();
 
 // Fecth Animais
 import fetchAnimais from "./modules/fetch-animais.js";
-fetchAnimais('../../animaisapi.json', '.numeros-grid');
+fetchAnimais('../animaisapi.json', '.numeros-grid');
 
 // Fecth Bitcoin
 import fetchBitcoin from "./modules/fetch-bitcoin.js";
